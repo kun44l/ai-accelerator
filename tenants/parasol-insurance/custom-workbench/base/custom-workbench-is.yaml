@@ -21,10 +21,10 @@ spec:
     annotations:
       opendatahub.io/notebook-python-dependencies: '[]'
       opendatahub.io/notebook-software: '[]'
-      openshift.io/imported-from: 'quay.io/nmestres/workbench-images:jupyter-datascience-ubi9-python-3.12-2024b_20250912'
+      openshift.io/imported-from: 'quay.io/rhn_gps_kjambhor/workbench-images:jupyter-datascience-ubi9-python-3.12-2024b_20250912'
     from:
       kind: DockerImage
-      name: 'quay.io/nmestres/workbench-images:jupyter-datascience-ubi9-python-3.12-2024b_20250912'
+      name: 'quay.io/rhn_gps_kjambhor/workbench-images:jupyter-datascience-ubi9-python-3.12-2024b_20250912'
     importPolicy:
       importMode: Legacy
     referencePolicy:
